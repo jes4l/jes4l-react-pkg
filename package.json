@@ -1,0 +1,18 @@
+{
+  "name": "@jes4l/react-pkg",
+  "version": "0.0.1",
+  "description": "Custom React Server Components helper",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node scripts/inject.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jes4l/jes4l-react-pkg.git"
+  },
+  "author": "jes4l",
+  "license": "MIT"
+}
