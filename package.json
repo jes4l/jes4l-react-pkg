@@ -3,16 +3,31 @@
   "version": "0.0.1",
   "description": "Custom React Server Components helper",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "scripts/"
+  ],
   "scripts": {
     "postinstall": "node scripts/inject.js"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jes4l/jes4l-react-pkg.git"
   },
   "author": "jes4l",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-server-components",
+    "rsc"
+  ],
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
 }
